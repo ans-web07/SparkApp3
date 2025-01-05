@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     #Another way for configuring spark session
     config = SparkConf()
-    config.set("spark.app.name","Hello Spark4")
+    config.set("spark.app.name","Hello Spark3")
     config.set("spark.master","local[4]")
     spark = SparkSession.builder\
             .config(conf=config)\
